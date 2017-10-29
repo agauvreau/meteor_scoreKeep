@@ -1,0 +1,16 @@
+.item {
+    background: rgba(255, 255, 255, 0.748);
+    border: 2px solid #b1aeae;
+    margin-bottom: 1.3rem;
+    padding: 1.3rem;
+
+}
+
+// the two __ have no meaning they are just a convention
+
+.item__message {
+    font-size: 1.9rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
