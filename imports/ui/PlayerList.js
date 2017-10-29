@@ -1,6 +1,11 @@
 import React from 'react';
+// Flipmove is a third party library for react. Refer to its github page.
+//Its easy to use pour the tag containing what you want displayed inside
+//a Flipmove tag. Other options are available.
+import FlipMove from 'react-flip-move';
 import Player from './Player';
 import PropTypes from 'prop-types';
+
 
 export default class PlayerList extends React.Component {
     renderPlayers() {
@@ -16,10 +21,12 @@ export default class PlayerList extends React.Component {
     }
     render () {
         return (
-            <div> 
+            <div>
+                
+                <FlipMove maintainContainerHeight={true}>
                 {this.renderPlayers()}
+                </FlipMove>
             </div>
-
         )
     }
 };
