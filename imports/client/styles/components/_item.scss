@@ -1,12 +1,33 @@
 .item {
     background: rgba(255, 255, 255, 0.748);
-    border: 2px solid #b1aeae;
+    border: 1px solid #b1aeae;
     margin-bottom: 1.3rem;
     padding: 1.3rem;
 
 }
 
+
+
+.item--position-1{
+    background: $green;
+    border-color: $green-alt;
+}
+.item--position-2{
+    background: $blue;
+    border-color: $blue-alt;
+}
+.item--position-3{
+    background: $red;
+    border-color: $red-alt;
+}
+
+
+
+
+
 // the two __ have no meaning they are just a convention
+
+
 
 .item__message {
     font-size: 1.9rem;
